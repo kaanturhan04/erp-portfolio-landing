@@ -953,4 +953,20 @@ html[data-theme="dark"] .toast__inner {
 html {
   scroll-behavior: smooth;
 }
+.code-block {
+  background: rgba(15, 22, 48, 0.86);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem;
+  overflow: auto;
+  margin: 0.6rem 0 0;
+}
+
+.code-block code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+
+
 
