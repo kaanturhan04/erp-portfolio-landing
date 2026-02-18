@@ -285,6 +285,37 @@
                 </button>
               </div>
             </article>
+            <article class="project" role="listitem">
+  <div class="project__top">
+    <h3 class="project__title">SQL ile KPI Hesaplama</h3>
+    <span class="badge">SQL</span>
+  </div>
+
+  <p class="project__text">
+    <strong>Amaç:</strong> Order Cycle Time ve On-Time Delivery oranını ölçmek.<br>
+    <strong>Yaklaşım:</strong> Sipariş ve teslim tarihleri arasındaki farkı SQL ile hesaplamak.<br>
+    <strong>Çıktı:</strong> Süreç performansını ölçmeye yönelik temel veri analizi mantığı.
+  </p>
+
+  <ul class="project__meta">
+    <li>Order Cycle Time hesaplama</li>
+    <li>Performans ölçüm mantığı</li>
+    <li>Temel SQL sorgu yapısı</li>
+  </ul>
+
+  <div class="project__actions">
+    <button class="btn btn--soft" type="button" data-toast="SQL örneği portfolyoda yer almaktadır.">
+      Detay
+    </button>
+  </div>
+
+  <pre style="background:#0f1630;color:#e7ecff;padding:1rem;border-radius:12px;overflow:auto;">
+SELECT 
+  order_id,
+  DATEDIFF(delivery_date, order_date) AS order_cycle_time
+FROM orders;
+  </pre>
+</article>
           </div>
         </div>
       </section>
@@ -497,6 +528,7 @@
     <script src="./app.js" defer></script>
   </body>
 </html>
+
 
 
 
