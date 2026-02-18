@@ -967,6 +967,15 @@ html {
   font-size: 0.95rem;
   color: var(--text);
 }
+.project-role {
+  margin-top: 12px;
+  padding: 8px 12px;
+  background: rgba(0, 90, 255, 0.05);
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+
 
 
 
