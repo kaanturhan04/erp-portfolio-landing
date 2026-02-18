@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Yönetim Bilişim Sistemleri öğrencisi için ERP ve iş süreçleri analizi odaklı portfolyo landing page." />
+    <meta name="theme-color" content="#0b1020" />
+    <title>ERP & İş Süreçleri Analizi | Portfolyo</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">İçeriğe atla</a>
+
+    <header class="site-header">
+      <nav class="nav" aria-label="Ana gezinme">
+        <div class="nav__inner">
+          <a class="brand" href="#hero" aria-label="Ana sayfaya dön">
+            <span class="brand__mark" aria-hidden="true">ERP</span>
+            <span class="brand__text">Portfolyo</span>
+          </a>
+
+          <ul class="nav__links" aria-label="Bölümler">
+            <li><a class="nav__link" href="#about">Hakkımda</a></li>
+            <li><a class="nav__link" href="#projects">Projeler</a></li>
+            <li><a class="nav__link" href="#skills">Yetenekler</a></li>
+            <li><a class="nav__link" href="#erp">ERP Nedir?</a></li>
+            <li><a class="nav__link" href="#faq">SSS</a></li>
+          </ul>
+
+          <div class="nav__actions">
+            <button
+              class="icon-btn"
+              type="button"
+              id="themeToggle"
+              aria-label="Tema değiştir"
+              aria-pressed="false"
+              title="Dark/Light"
+            >
+              <span class="icon" aria-hidden="true">
+                <!-- simple sun/moon glyph via CSS -->
+              </span>
+              <span class="icon-btn__text">Tema</span>
+            </button>
+
+            <button
+              class="icon-btn nav__burger"
+              type="button"
+              id="menuToggle"
+              aria-label="Mobil menüyü aç/kapat"
+              aria-controls="mobileMenu"
+              aria-expanded="false"
+            >
+              <span class="burger" aria-hidden="true"></span>
+              <span class="icon-btn__text">Menü</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="nav__backdrop" id="navBackdrop" hidden></div>
+        <div class="nav__drawer" id="mobileMenu" hidden>
+          <div class="nav__drawerHeader">
+            <span class="nav__drawerTitle">Menü</span>
+            <button class="icon-btn" type="button" id="menuClose" aria-label="Menüyü kapat">
+              <span aria-hidden="true">✕</span>
+            </button>
+          </div>
+          <ul class="nav__drawerLinks" aria-label="Mobil gezinme">
+            <li><a class="nav__drawerLink" href="#about">Hakkımda</a></li>
+            <li><a class="nav__drawerLink" href="#projects">Projeler</a></li>
+            <li><a class="nav__drawerLink" href="#skills">Yetenekler</a></li>
+            <li><a class="nav__drawerLink" href="#erp">ERP Nedir?</a></li>
+            <li><a class="nav__drawerLink" href="#faq">SSS</a></li>
+            <li class="nav__drawerDivider" aria-hidden="true"></li>
+            <li>
+              <button class="btn btn--soft btn--full" type="button" id="toastDemoBtn" aria-label="Örnek bildirim göster">
+                Bildirim Örneği
+              </button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main id="content">
+      <section class="hero" id="hero" aria-label="Giriş">
+        <div class="container hero__grid">
+          <div class="hero__copy">
+            <p class="eyebrow">ERP • İş Analizi • Süreç Optimizasyonu</p>
+            <h1 class="hero__title">ERP &amp; İş Süreçleri Analizi Portfolyo</h1>
+            <p class="hero__subtitle">
+              Yönetim Bilişim Sistemleri öğrencisi olarak; süreç keşfi, gereksinim analizi ve ERP modül entegrasyonları
+              odağında akademik ve uygulamalı çalışmalarımı sunuyorum.
+            </p>
+
+            <div class="hero__cta" aria-label="Hızlı aksiyonlar">
+              <a class="btn" href="#projects">Projeleri Gör</a>
+              <a class="btn btn--soft" href="#about">Hakkımda</a>
+              <a class="btn btn--ghost" href="#footer">İletişim</a>
+            </div>
+            
+            
+
+            <dl class="hero__metrics" aria-label="Özet metrikler">
+              <div class="metric">
+                <dt>Odak</dt>
+                <dd>ERP &amp; Süreç Tasarımı</dd>
+              </div>
+              <div class="metric">
+                <dt>Yaklaşım</dt>
+                <dd>Veri + Süreç + Kullanıcı</dd>
+              </div>
+              <div class="metric">
+                <dt>Çıktı</dt>
+                <dd>Dokümantasyon &amp; Raporlama</dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="hero__panel" aria-label="Vurgu kartı">
+            <article class="panel">
+              <h2 class="panel__title">Akademik çizgi, kurumsal bakış</h2>
+              <p class="panel__text">
+                BPMN temelli süreç modelleme, kullanıcı hikâyeleri, veri akışları ve KPI odaklı raporlama ile
+                karar destek çalışmalarını birleştiriyorum.
+              </p>
+              <ul class="panel__bullets" aria-label="Öne çıkan başlıklar">
+                <li>Süreç haritalama &amp; darboğaz analizi</li>
+                <li>ERP modül/veri akışı kurguları</li>
+                <li>Raporlama metrikleri &amp; dashboard taslağı</li>
+              </ul>
+              <div class="panel__note" role="note">
+                <span class="dot" aria-hidden="true"></span>
+                <span>Bu sayfa tamamen HTML/CSS/Vanilla JS ile hazırlanmıştır.</span>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="hero__fade" aria-hidden="true"></div>
+      </section>
+
+      <section class="section" id="about" aria-label="Hakkımda">
+        <div class="container">
+          <header class="section__header">
+            <h2 class="section__title">Hakkımda</h2>
+            <p class="section__lead">
+              Süreçlerin ölçülebilir, izlenebilir ve ölçeklenebilir hale gelmesi için analitik yaklaşım ve net
+              dokümantasyonu önemsiyorum.
+            </p>
+          </header>
+
+          <div class="about">
+            <article class="card card--wide">
+              <h3 class="card__title">Profil</h3>
+              <p class="card__text">
+                Yönetim Bilişim Sistemleri öğrencisiyim. ERP ekosistemini; süreç yönetimi, veri akışı ve raporlama
+                katmanlarıyla bütüncül ele alarak iş birimleri için anlaşılır analiz çıktıları üretmeye odaklanıyorum.
+              </p>
+              <div class="pill-row" aria-label="Etiketler">
+                <span class="pill">İş Analizi</span>
+                <span class="pill">Süreç Optimizasyonu</span>
+                <span class="pill">ERP Temelleri</span>
+                <span class="pill">Raporlama</span>
+              </div>
+            </article>
+
+            <article class="card">
+              <h3 class="card__title">Çalışma Disiplini</h3>
+              <ul class="list" aria-label="Çalışma adımları">
+                <li>Problemi tanımla &amp; kapsamı netleştir</li>
+                <li>Paydaş görüşmeleri için soru seti çıkar</li>
+                <li>Süreçleri modelle, veriyi bağla, ölçütleri tanımla</li>
+                <li>Dokümantasyon, bulgular ve önerileri raporla</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3 class="card__title">Hedef</h3>
+              <p class="card__text">
+                ERP ve süreç analizi alanında; proje stajı/part-time pozisyonlarda işin mutfağında yer alarak vaka
+                çalışmaları ve gerçek verilerle yetkinliklerimi derinleştirmek.
+              </p>
+              <a class="link" href="#faq">Sık sorulanları incele →</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="projects" aria-label="Projeler">
+        <div class="container">
+          <header class="section__header">
+            <h2 class="section__title">Projeler</h2>
+            <p class="section__lead">
+              3 örnek çalışma: süreç simülasyonu, ERP veri akışı kurgusu ve mini raporlama dashboard taslağı.
+            </p>
+          </header>
+
+          <div class="grid-3" role="list" aria-label="Proje kartları">
+            <article class="project" role="listitem">
+              <div class="project__top">
+                <h3 class="project__title">Süreç Analizi Simülasyonu</h3>
+                <span class="badge">Analiz</span>
+              </div>
+              <p class="project__text">
+                Siparişten sevkiyata kadar uçtan uca süreç adımlarını modelleyip, darboğaz noktalarını ve iyileştirme
+                fırsatlarını senaryo bazlı değerlendiren çalışma.
+              </p>
+              <ul class="project__meta" aria-label="Proje çıktıları">
+                <li>BPMN taslağı</li>
+                <li>Risk/darboğaz listesi</li>
+                <li>Önceliklendirilmiş öneriler</li>
+              </ul>
+              <div class="project__actions">
+                <button class="btn btn--soft" type="button" data-toast="Bu proje için örnek çıktı yakında eklenecek.">
+                  Detay
+                </button>
+                <a class="btn btn--ghost" href="#skills">Kullanılan Yetkinlikler</a>
+              </div>
+            </article>
+
+            <article class="project" role="listitem">
+              <div class="project__top">
+                <h3 class="project__title">ERP Modül Veri Akışı Çalışması</h3>
+                <span class="badge">ERP</span>
+              </div>
+              <p class="project__text">
+                Satınalma, stok ve muhasebe modülleri arasında temel veri nesnelerini (sipariş, irsaliye, fatura vb.)
+                eşleştirip “tek doğru veri” yaklaşımıyla akış kuralları taslağı.
+              </p>
+              <ul class="project__meta" aria-label="Proje çıktıları">
+                <li>Veri sözlüğü</li>
+                <li>Akış diyagramı</li>
+                <li>Kontrol noktaları</li>
+              </ul>
+              <div class="project__actions">
+                <button class="btn btn--soft" type="button" data-toast="Veri akışı şeması taslağı hazırlanıyor.">
+                  Detay
+                </button>
+                <a class="btn btn--ghost" href="#erp">ERP Nedir?</a>
+              </div>
+            </article>
+
+            <article class="project" role="listitem">
+              <div class="project__top">
+                <h3 class="project__title">Mini Raporlama Dashboard</h3>
+                <span class="badge">Raporlama</span>
+              </div>
+              <p class="project__text">
+                KPI’ları (stok devir hızı, teslimat süreleri, süreç performansı vb.) tanımlayıp, yönetici bakış açısına
+                uygun mini dashboard düzeni ve filtre mantığı taslağı.
+              </p>
+              <ul class="project__meta" aria-label="Proje çıktıları">
+                <li>KPI tanımları</li>
+                <li>Dashboard wireframe</li>
+                <li>Filtre senaryoları</li>
+              </ul>
+              <div class="project__actions">
+                <button class="btn btn--soft" type="button" data-toast="Dashboard taslağı için veri örnekleri hazırlanıyor.">
+                  Detay
+                </button>
+                <button class="btn btn--ghost" type="button" data-toast="Demo mod: Toast bildirimi çalışıyor.">
+                  Demo
+                </button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills" aria-label="Yetenekler">
+        <div class="container">
+          <header class="section__header">
+            <h2 class="section__title">Yetenekler</h2>
+            <p class="section__lead">Analizden raporlamaya uzanan uçtan uca yetkinlik seti.</p>
+          </header>
+
+          <div class="skills">
+            <article class="card">
+              <h3 class="card__title">İş Analizi</h3>
+              <ul class="chips" aria-label="İş analizi yetenekleri">
+                <li class="chip">Gereksinim Analizi</li>
+                <li class="chip">User Story</li>
+                <li class="chip">Kapsam Yönetimi</li>
+                <li class="chip">Paydaş İletişimi</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3 class="card__title">Süreç Yönetimi</h3>
+              <ul class="chips" aria-label="Süreç yönetimi yetenekleri">
+                <li class="chip">BPMN Temelleri</li>
+                <li class="chip">Darboğaz Analizi</li>
+                <li class="chip">Süreç Standardizasyonu</li>
+                <li class="chip">KPI Tasarımı</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3 class="card__title">ERP &amp; Veri</h3>
+              <ul class="chips" aria-label="ERP ve veri yetenekleri">
+                <li class="chip">Modül Mantığı</li>
+                <li class="chip">Veri Akışı</li>
+                <li class="chip">Temel SQL</li>
+                <li class="chip">Raporlama</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3 class="card__title">Araçlar</h3>
+              <ul class="chips" aria-label="Kullanılan araçlar">
+                <li class="chip">Excel / Sheets</li>
+                <li class="chip">Dokümantasyon</li>
+                <li class="chip">Sunum Taslağı</li>
+                <li class="chip">Wireframe</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="erp" aria-label="ERP nedir?">
+        <div class="container">
+          <header class="section__header">
+            <h2 class="section__title">ERP Nedir?</h2>
+            <p class="section__lead">Kurumsal kaynakların tek bir sistemde, tutarlı veriyle yönetilmesi.</p>
+          </header>
+
+          <div class="erp">
+            <article class="card card--wide">
+              <h3 class="card__title">Kısa açıklama</h3>
+              <p class="card__text">
+                ERP (Enterprise Resource Planning), satınalma, üretim, stok, satış, insan kaynakları ve muhasebe gibi
+                fonksiyonların ortak veri modeliyle entegre çalışmasını sağlayan kurumsal yönetim yaklaşımıdır. Amaç;
+                tekrarları azaltmak, süreçleri standardize etmek ve karar destek için güvenilir raporlama üretmektir.
+              </p>
+              <p class="card__text">
+                Bu portfolyo; süreç + veri + raporlama ilişkisini anlaşılır örneklerle göstermeye odaklanır.
+              </p>
+              <button class="btn btn--soft" type="button" data-toast="ERP: Entegrasyon + standart süreç + tek doğru veri.">
+                Özet Notu
+              </button>
+            </article>
+
+            <article class="card">
+              <h3 class="card__title">Neden önemli?</h3>
+              <ul class="list" aria-label="ERP faydaları">
+                <li>Veri tutarlılığı ve izlenebilirlik</li>
+                <li>Operasyonel verimlilik</li>
+                <li>Denetim ve raporlama kolaylığı</li>
+                <li>Süreç performans ölçümü</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="faq" aria-label="Sık sorulan sorular">
+        <div class="container">
+          <header class="section__header">
+            <h2 class="section__title">SSS</h2>
+            <p class="section__lead">Kısa ve net cevaplar; görüşmelerde genişletilebilir.</p>
+          </header>
+
+          <div class="faq" data-accordion>
+            <article class="faq__item">
+              <h3 class="faq__q">
+                <button
+                  class="faq__btn"
+                  type="button"
+                  aria-expanded="false"
+                  aria-controls="faq1"
+                >
+                  ERP projelerinde iş analistinin rolü nedir?
+                </button>
+              </h3>
+              <div class="faq__a" id="faq1" role="region" aria-label="Cevap" hidden>
+                <p>
+                  Süreçleri netleştirmek, gereksinimleri ölçülebilir hale getirmek, modüller arası veri akışını
+                  doğrulamak ve kullanıcı kabul kriterlerini tanımlamak.
+                </p>
+              </div>
+            </article>
+
+            <article class="faq__item">
+              <h3 class="faq__q">
+                <button class="faq__btn" type="button" aria-expanded="false" aria-controls="faq2">
+                  Süreç optimizasyonunda ilk adım ne olmalı?
+                </button>
+              </h3>
+              <div class="faq__a" id="faq2" role="region" aria-label="Cevap" hidden>
+                <p>
+                  “Mevcut durum” süreç haritası: adım, sorumlu, çıktı ve ölçütleri görünür kılmak; ardından darboğaz ve
+                  kök neden analizi yapmak.
+                </p>
+              </div>
+            </article>
+
+            <article class="faq__item">
+              <h3 class="faq__q">
+                <button class="faq__btn" type="button" aria-expanded="false" aria-controls="faq3">
+                  Bu sayfayı nasıl güncelleyebilirim?
+                </button>
+              </h3>
+              <div class="faq__a" id="faq3" role="region" aria-label="Cevap" hidden>
+                <p>
+                  Proje kartlarındaki metinleri ve yetenek etiketlerini düzenleyebilir; yeni bölüm eklemek için
+                  <span class="mono">section</span> yapısını kopyalayıp menü linkini güncelleyebilirsiniz.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="footer" aria-label="Alt bilgi">
+      <div class="container footer__grid">
+        <div class="footer__brand">
+          <div class="brand brand--footer" aria-label="Marka">
+            <span class="brand__mark" aria-hidden="true">ERP</span>
+            <span class="brand__text">Portfolyo</span>
+          </div>
+          <p class="footer__text">
+            ERP &amp; İş Süreçleri Analizi odaklı öğrenci portfolyosu.
+          </p>
+        </div>
+
+        <div class="footer__links" aria-label="Bağlantılar">
+          <a class="footer__link" href="#projects">Projeler</a>
+          <a class="footer__link" href="#skills">Yetenekler</a>
+          <a class="footer__link" href="#faq">SSS</a>
+        </div>
+
+        <div class="footer__meta" aria-label="İletişim">
+          <p class="footer__text">
+            E-posta:
+            <a class="footer__link" href="mailto:kaanturhan2004@gmail.com">
+              kaanturhan2004@gmail.com
+            </a>
+          </p>
+        
+          <p class="footer__text">
+            LinkedIn:
+            <a
+              class="footer__link"
+              href="https://www.linkedin.com/in/kaan-turhan-493b50246/"
+              target="_blank"
+              rel="noopener"
+            >
+              /in/kaan-turhan-493b50246
+            </a>
+          </p>
+        
+          <button
+            class="btn btn--soft"
+            type="button"
+            data-toast="İletişim bilgileri footer bölümünde."
+          >
+            Hızlı Bildirim
+          </button>
+        </div>
+        
+      <div class="container footer__bottom">
+        <small>© <span id="year"></span> • Akademik portfolyo landing • HTML/CSS/Vanilla JS</small>
+      </div>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true" hidden>
+      <div class="toast__inner">
+        <span class="toast__msg" id="toastMsg">Bildirim</span>
+        <button class="toast__close" type="button" id="toastClose" aria-label="Bildirimi kapat">Kapat</button>
+      </div>
+    </div>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>
